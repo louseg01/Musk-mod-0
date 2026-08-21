@@ -10,7 +10,7 @@ function insertarFrase() {
         .replace(/[\u0300-\u036f]/g, "")
         .replace(/[¿?¡!.]/g, "") 
 
-    arrayPalabras = textoLimpio.split(" ");
+    let arrayPalabras = textoLimpio.split(" ");
     return arrayPalabras;
 }
 
@@ -35,7 +35,7 @@ let frase = insertarFrase();
 let repetidas = comprobarPalabras(frase);
 
 if (repetidas.length > 0) {
-    repetidasJoin = repetidas.join(", ")
+    let repetidasJoin = repetidas.join(", ")
     console.log("Las palabras repetidas son: ", repetidasJoin);
 } else {
     console.log("No hay palabras repetidas.");

@@ -20,7 +20,6 @@ function comprobarArray(array1, array2) {
 
 let array1 = generarArray();
 let array2 = generarArray();
-new Set(comprobarArray(array1, array2));
  
 console.log(
     "\n Array 1: " + array1,

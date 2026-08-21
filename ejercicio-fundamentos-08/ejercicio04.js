@@ -32,14 +32,14 @@ function generarMapa(palabra1, palabra2) {
             contador--;
             anagrama.set(letra, contador)
         } else {
-            anagrama.set(letra, 1);
+            anagrama.set(letra, -1);
         }
     }
     return anagrama;
 }
 
 function esAnagrama(anagrama){
-    let esAnagrama = false;
+    let esAnagrama = true;
     for (const valor of anagrama.values()) {
         if (valor !== 0) {
             esAnagrama = false
@@ -55,7 +55,9 @@ let palabra1 = recibirPalabra1()
 let palabra2 = recibirPalabra2()
 let anagrama = generarMapa(palabra1, palabra2)
 
-if (esAnagrama(anagrama)) {
+if (palabra1 === "" || palabra2 === "") {
+    console.log("No has escrito ninguna palabra, por favor, reinicia el programa.")
+} else if (esAnagrama(anagrama)) {
     console.log("Las palabras son anagramas.")
 } else {
     console.log("Las palabras no son anagramas.")
