@@ -1,7 +1,7 @@
 <h1 style="color: #58A6FF;">Fundamentos de la programación · Escuela Musk</h1>
 
 <p>
-  ¡Hola! En este repositorio encontrarás <strong>4 carpetas</strong> que incluyen los ejercicios realizados durante el proceso del módulo de <strong>Fundamentos de la Programación</strong>.
+  ¡Hola! En este repositorio encontrarás <strong>4 carpetas</strong> que incluyen los ejercicios realizados durante el módulo de <strong>Fundamentos de la Programación</strong>.
 </p>
 
 <h2>📁 Relación de carpetas</h2>
